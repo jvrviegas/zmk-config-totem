@@ -67,14 +67,14 @@
         raise_layer {
 // -----------------------------------------------------------------------------------------
 // | CAPS |  !  |  @  |  #  |  $  |   |  ^  |  &  |  *  |  (  |  )  |
-// |  F1  |  F2 |  F3 |  F4 |  F5 |   |  -  |  =  |  [  |  ]  |  \  |
-// |  F7  |  F8 |  F9 | F10 | F11 |   |  _  |  +  |  {  |  }  |  |  |
+// |      |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |
+// |      |     |     |     |     |   |  _  |  +  |  {  |  }  |  |  |
 //             | HYPR|     | SPC |   | ENT |     | ALT |
             display-name = "Raise";
             bindings = <
            &kp CAPSLOCK  &kp EXCL  &kp AT    &kp HASH              &kp DLLR     &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
-           &kp F1        &kp F2    &kp F3    &kp F4                &kp F5       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH
-&kp LCTRL  &kp F7        &kp F8    &kp F9    &kp F10               &kp F11      &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE    &trans
+           &trans        &trans    &trans    &trans                &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH
+&kp LCTRL  &trans        &trans    &trans    &trans                &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE    &trans
                                    &kp LC(LS(LA(LGUI)))  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
