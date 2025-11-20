@@ -23,6 +23,12 @@
             key-positions = <28 29>;
             bindings = <&kp SQT>;
         };
+
+        combo_grave {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp GRAVE>;
+        };
     };
 
     keymap {
