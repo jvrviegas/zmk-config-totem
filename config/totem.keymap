@@ -75,6 +75,7 @@
 	    label = "UROB_HMR";
 	    bindings = <&kp>, <&kp>;
 
+            #binding-cells = <2>;
 	    flavor = "balanced";
 	    tapping-term-ms = <280>;
 	    quick-tap-ms = <175>;
@@ -88,6 +89,7 @@
 	    label = "UROB_HML";
 	    bindings = <&kp>, <&kp>;
 
+            #binding-cells = <2>;
 	    flavor = "balanced";
 	    tapping-term-ms = <280>;
 	    quick-tap-ms = <175>;
