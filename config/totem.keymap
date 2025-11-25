@@ -127,10 +127,10 @@
 
             display-name = "Lower";
             bindings = <
-           &kp N1      &kp N2      &kp N3        &kp N4        &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
-           &kp C_PREV  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
-&kp LCTRL  &trans      &trans      &trans        &trans        &trans       &trans    &trans    &trans    &trans     &trans  &trans
-                                   &kp LGUI      &trans        &kp SPACE    &kp RET   &trans    &kp RALT
+           &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
+           &none   &none   &none     &none   &none        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
+&kp LCTRL  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans    &trans     &trans  &trans
+                           &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -143,10 +143,10 @@
 
             display-name = "Raise";
             bindings = <
-           &kp EXCL      &kp AT  &kp HASH              &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
-           &kp CAPSLOCK  &trans  &trans                &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH
-&kp LCTRL  &trans        &trans  &trans                &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &trans
-                                 &kp LC(LS(LA(LGUI)))  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+           &kp EXCL  &kp AT  &kp HASH              &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
+           &trans    &trans  &trans                &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH
+&kp LCTRL  &trans    &trans  &trans                &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &trans
+                             &kp LC(LS(LA(LGUI)))  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
 
@@ -159,10 +159,10 @@
 
             display-name = "Device";
             bindings = <
-       &kp ESC  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-       &none    &none                 &none                 &none  &none    &none         &none         &none         &none         &none
-&none  &none    &none                 &none                 &none  &none    &none         &none         &none         &none         &none         &bt BT_CLR
-                                      &none                 &none  &none    &none         &none         &none
+       &kp CAPSLOCK  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none         &none       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &kp ESC
+       &kp C_PREV    &kp C_NEXT            &kp C_VOL_DN          &kp C_VOL_UP  &kp C_PP    &none         &none         &none         &none  &none
+&none  &none         &none                 &none                 &none         &none       &none         &none         &none         &none  &none    &bt BT_CLR
+                                           &none                 &none         &none       &none         &none         &none
             >;
         };
 
