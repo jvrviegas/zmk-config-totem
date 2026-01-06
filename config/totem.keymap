@@ -19,6 +19,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // This allows quick and fast key press on homerow while maintaining not to long press to activate homerow mods
+&mt {
+    quick-tap-ms = <100>;
+    global-quick-tap;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
+};
 
 / {
     combos {
