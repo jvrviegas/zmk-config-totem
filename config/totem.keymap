@@ -19,6 +19,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // This allows quick and fast key press on homerow while maintaining not to long press to activate homerow mods
+
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -108,10 +109,10 @@
 
             display-name = "Base";
             bindings = <
-                &kp Q        &kp W        &kp F         &kp P         &kp B        &kp J    &kp L             &kp U         &kp Y        &kp SEMICOLON
-                &HML LGUI A  &HML LALT R  &HML LCTRL S  &HML LSHFT T  &kp G        &kp M    &HMR RSHFT N      &HMR RCTRL E  &HMR RALT I  &HMR RGUI O
-&kp LEFT_SHIFT  &kp Z        &kp X        &kp C         &kp D         &kp V        &kp K    &kp H             &kp COMMA     &kp DOT      &kp FSLH       &kp RIGHT_SHIFT
-                                          &kp LGUI      &mo 1         &kp SPACE    &kp RET  &CustomLT 2 BSPC  &kp RALT
+                &kp Q  &kp W  &kp F         &kp P         &kp B        &kp J    &kp L             &kp U         &kp Y    &kp SEMICOLON
+                &kp A  &kp R  &HML LCTRL S  &HML LSHFT T  &kp G        &kp M    &HMR RSHFT N      &HMR RCTRL E  &kp I    &kp O
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D         &kp V        &kp K    &kp H             &kp COMMA     &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                              &kp LGUI      &mo 1         &kp SPACE    &kp RET  &CustomLT 2 BSPC  &kp RALT
             >;
         };
 
